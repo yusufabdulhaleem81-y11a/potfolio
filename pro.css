@@ -16,7 +16,7 @@ body{
     /* background-color: aqua  ; */
 }
 #nav-bar{
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     height: 100px;
     /* width: 700px; */
     display: flex;
@@ -165,6 +165,8 @@ body{
 }
 #about-me-cont-2{
     padding: 20px 0px;
+    display: flex;
+    justify-content: center;
     width: 900px;
     line-height: 1.6em;
     font-size:20px;
@@ -202,11 +204,12 @@ body{
 /* meadia query for screens below 320px  */
 @media (max-width:320px){
     #nav-bar{
-        background-color: #fff;
-        /* gap: 10px; */
+        /* background-color: #acabfd; */
+        gap: 10px;
         display: flex;
         height: 60px;
         padding: 0 10px;
+        /* justify-content: center; */
     }
     #nav-bar img{
         background-color: bisque;
@@ -468,7 +471,7 @@ body{
 @media(min-width:376px)and (max-width:425px){
        #nav-bar{
         background-color: #fff;
-        /* gap: 10px; */
+        gap: 10px;
         display: flex;
         height: 60px;
         padding: 0 10px;
@@ -479,7 +482,7 @@ body{
         width: 50px;
     }
     #nav-bar-cont{
-        background-color: red;
+        /* background-color: red; */
         gap: 30px;
         font-size: 12px;
         
@@ -611,7 +614,7 @@ body{
         width: 70px;
     }
     #nav-bar-cont{
-        background-color: red;
+        /* background-color: red; */
         gap: 60px;
         font-size: 13px;
         
@@ -744,7 +747,7 @@ body{
         width: 90px;
     }
     #nav-bar-cont{
-        background-color: red;
+        /* background-color: red; */
         gap: 100px;
         font-size: 18px;
         
@@ -877,7 +880,7 @@ body{
         /* width: 200px;     */
     }
     #nav-bar-cont{
-        background-color: red;
+        /* background-color: red; */
         gap: 300px;
         font-size: 40px;
         
