@@ -16,7 +16,7 @@ body{
     /* background-color: aqua  ; */
 }
 #nav-bar{
-    /* background-color: blueviolet; */
+    background-color: blueviolet;
     height: 100px;
     /* width: 700px; */
     display: flex;
@@ -25,6 +25,8 @@ body{
     justify-content: center;
     gap: 70px;
     /* border-bottom: 1px solid #acafb4; */
+    position: sticky;
+    top: 0px;
 }
 #nav-bar img{
     height: 90px;
@@ -80,6 +82,9 @@ body{
     width:800px ;
     border-radius: 10px;
     padding: 10px 10px;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
 }
 #hero-section-cont-one h1{
     font-family:'Times New Roman', Times, serif ;
@@ -156,6 +161,10 @@ body{
     /* padding: 100px; */
     width:400px;
 }
+#about-me-2-cont{
+    /* display: block;
+    justify-content: center; */
+}
 #about-me-cont-1{
     padding: 20px 0px;
     width: 900px;
@@ -174,16 +183,17 @@ body{
 }
 #skill{
     /* background-color: orange; */
-    height: 200px;
-       /* display: flex; */
+    /* height: 200px; */
+       display: flex;
     align-self: center;
     justify-content: center;
     /* padding-left: 270px; */
     padding-top: 100px;
+    gap: 50px;
 }
 #skill h3{
     padding-bottom: 20px;
-    font-size:30px;
+    font-size:10px;
 }
 #skill li{
         line-height: 1.6em;
@@ -191,9 +201,9 @@ body{
 }
 #skill-cont{
     display: flex;
-    /* align-items: center; */
-    justify-content: center;
-    /* gap: 30px; */
+    align-items: center;
+    justify-content:center;
+    gap: 130px;
 }
 #nav-bar-cont li:hover{
     color: blue;
@@ -264,20 +274,21 @@ body{
     #hero-section-cont-one{
     /* background-color: aqua; */
     height: 300px;
-    width:800px ;
+    width:300px ;
     border-radius: 10px;
-    padding: 10px 10px;
+    padding: 0px 0px;
     }
     #hero-section-cont-one{
     /* background-color: aqua; */
     height: 300px;
-    width:800px ;
+    width:300px ;
     border-radius: 10px;
-    padding: 10px 10px;
+    padding: 10px 0px;
     }
     #aside{
     background-color: blue;
     height: 100px;
+    /* width: 300px; */
     }
     #about-me h1{
     /* background-color:red ; */
@@ -301,14 +312,14 @@ body{
     #about-me-cont-1{
     padding: 0px 0px;
     text-align: center;
-    width: 150%;
+    width: 160%;
     line-height: 1.6em;
     font-size:17px;
     }
     #about-me-cont-2{
     padding: 20px 0px;
     text-align: center;
-    width: 150%;
+    width: 160%;
     line-height: 1.6em;
     font-size:17px;
     }
@@ -316,20 +327,27 @@ body{
     /* background-color: orange; */
     height: 200px;
     display: block;
-    /* align-self: center; */
+    align-self: center;
     justify-content: center;
     /* padding-left: 270px; */
-    padding-top: 0px;
-    width: 300px;
+    padding-top: 20px;
+    /* width: 300px;    */
+    gap: 10px;
+    }
+    #skill-cont{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 1px;
     }
     #skill h3{
-    padding-top: 20px;
-    padding-bottom:0px ;
+    padding-top: 1px;
+    padding-bottom:10px ;
     font-size:20px;
     }
     #skill li{
         line-height: 1.6em;
-        font-size:15px;
+        font-size:11px;  
     }
 
 }
@@ -373,12 +391,12 @@ body{
     }
     #hero-section-cont-one h1{
     font-family:'Times New Roman', Times, serif ;
-    font-size:40px;
+    font-size:30px;
     width: 100px;
     }
     #hero-section-cont-one p{
     /* font-family:'Times New Roman', Times, serif ; */
-    /* font-size:40px; */
+    font-size:19px;
      width: 300px;
     }
     #hero-section-cont{
@@ -393,7 +411,7 @@ body{
     }
     #hero-section-cont-one{
     /* background-color: aqua; */
-    height: 300px;
+    /* height: 300px; */
     width:300px ;
     border-radius: 10px;
     padding: 10px 10px;
@@ -401,7 +419,7 @@ body{
     #hero-section-cont-one{
     /* background-color: aqua; */
     height: 300px;
-    width:800px ;
+    width:425px ;
     border-radius: 10px;
     padding: 10px 10px;
     }
@@ -436,16 +454,16 @@ body{
     #about-me-cont-1{
     padding: 0px 0px;
     text-align: center;
-    width: 150%;
+    width: 180%;
     line-height: 1.6em;
-    font-size:17px;
+    font-size:19px;
     }
     #about-me-cont-2{
     padding: 20px 0px;
     text-align: center;
-    width: 150%;
+    width: 180%;
     line-height: 1.6em;
-    font-size:17px;
+    font-size:19px;
     }
     #skill{
     /* background-color: orange; */
@@ -455,7 +473,13 @@ body{
     justify-content: center;
     /* padding-left: 270px; */
     padding-top: 0px;
-    width: 300px;
+    width: 375px;
+    }
+    #skill-cont{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 1px;
     }
     #skill h3{
     padding-top: 20px;
@@ -471,9 +495,10 @@ body{
 @media(min-width:376px)and (max-width:425px){
        #nav-bar{
         background-color: #fff;
-        gap: 10px;
+        gap: 9px;
         display: flex;
         height: 60px;
+        /* width: 425px; */
         padding: 0 10px;
     }
     #nav-bar img{
@@ -534,9 +559,9 @@ body{
     #hero-section-cont-one{
     /* background-color: aqua; */
     height: 300px;
-    width:800px ;
+    width:421px ;
     border-radius: 10px;
-    padding: 10px 10px;
+    padding: 0px 0px;
     }
     #aside{
     background-color: blue;
@@ -569,14 +594,14 @@ body{
     #about-me-cont-1{
     padding: 0px 0px;
     text-align: center;
-    width: 150%;
+    width: 182%;
     line-height: 1.6em;
     font-size:17px;
     }
     #about-me-cont-2{
     padding: 20px 0px;
     text-align: center;
-    width: 150%;
+    width: 182%;
     line-height: 1.6em;
     font-size:17px;
     }
@@ -588,7 +613,13 @@ body{
     justify-content: center;
     /* padding-left: 270px; */
     padding-top: 0px;
-    width: 300px;
+    width: 425px;
+    }
+    #skill-cont{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 1px;
     }
     #skill h3{
     padding-top: 20px;
@@ -666,7 +697,7 @@ body{
     #hero-section-cont-one{
     /* background-color: aqua; */
     height: 300px;
-    width:800px ;
+    width:768px ;
     border-radius: 10px;
     padding: 10px 10px;
     }
@@ -701,14 +732,14 @@ body{
     #about-me-cont-1{
     padding: 0px 0px;
     text-align: center;
-    width: 150%;
+    width: 181%;
     line-height: 1.6em;
     font-size:17px;
     }
     #about-me-cont-2{
     padding: 20px 0px;
     text-align: center;
-    width: 150%;
+    width: 181%;
     line-height: 1.6em;
     font-size:17px;
     }
@@ -720,7 +751,14 @@ body{
     justify-content:center ;
     /* padding-left: 270px; */
     padding-top: 0px;
-    width: 300px;
+    width: 768px;
+    gap: 50px;
+    }
+    #skill-cont{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 30px;
     }
     #skill h3{
     padding-top: 20px;
@@ -834,26 +872,32 @@ body{
     #about-me-cont-1{
     padding: 0px 0px;
     text-align: center;
-    width: 150%;
+    width: 181.5%;
     line-height: 1.6em;
-    font-size:17px;
+    font-size:20px;
     }
     #about-me-cont-2{
     padding: 20px 0px;
     text-align: center;
-    width: 150%;
+    width: 181.5%;
     line-height: 1.6em;
-    font-size:17px;
+    font-size:20px;
     }
     #skill{
-    /* background-color: orange; */
+    background-color: orange;
     height: 200px;
     display: flex;
     align-self: center;
     justify-content:center ;
     /* padding-left: 270px; */
     padding-top: 0px;
-    width: 300px;
+    width: 1024px;
+    }
+     #skill-cont{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 51px;
     }
     #skill h3{
     padding-top: 20px;
@@ -862,7 +906,7 @@ body{
     }
     #skill li{
         line-height: 1.6em;
-        font-size:15px;
+        font-size:19px;
     }
 
 }
@@ -979,14 +1023,20 @@ body{
     font-size:17px;
     }
     #skill{
-    /* background-color: orange; */
+    background-color: orange;
     height: 200px;
     display: flex;
     align-self: center;
     justify-content:center ;
     /* padding-left: 270px; */
     padding-top: 0px;
-    width: 300px;
+    /* width: 300px; */
+    }
+    #skill-cont{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 1px;
     }
     #skill h3{
     padding-top: 20px;
@@ -1081,7 +1131,7 @@ body{
     #about-me h1{
     /* background-color:red ; */
      font-family:'Times New Roman', Times, serif ;
-    font-size:20px;
+    font-size:25px;
     padding-left: 0px;
     /* padding-top: 20px; */
     /* padding-bottom: 20px; */
@@ -1100,26 +1150,26 @@ body{
     #about-me-cont-1{
     padding: 0px 0px;
     text-align: center;
-    width: 150%;
+    width: 180.9%;
     line-height: 1.6em;
-    font-size:17px;
+    font-size:20px;
     }
     #about-me-cont-2{
     padding: 20px 0px;
     text-align: center;
-    width: 150%;
+    width: 180.9%;
     line-height: 1.6em;
-    font-size:17px;
+    font-size:20px;
     }
     #skill{
-    /* background-color: orange; */
+    background-color: orange;
     height: 200px;
     display: flex;
     align-self: center;
     justify-content:center ;
     /* padding-left: 270px; */
     padding-top: 0px;
-    width: 300px;
+    /* width: 300px; */
     }
     #skill-cont{
     display: flex;
@@ -1130,11 +1180,11 @@ body{
     #skill h3{
     padding-top: 20px;
     padding-bottom:0px ;
-    font-size:20px;
+    font-size:25px;
     }
     #skill li{
         line-height: 1.6em;
-        font-size:15px;
+        font-size:20px;
     }
 
 }
